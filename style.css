@@ -1,9 +1,7 @@
-body {
-	color: red;
-	background: black;
-}
-
-h1 {
-	color: red;
-}
-html {background-color: black}
+/*html {background-color: red}*/
+html {background-color: black;}
+body {background-color: black;}
+body {color: red;}
+h1 {font-size: 3vw;}
+p {font-size: 2vw;}
+.notes {font-size: 1.5vw; text-align: right;}
