@@ -3,7 +3,7 @@ html {background-color: black;}
 body {background-color: black;}
 body {color: #7d8618;}
 h1 {
-  font-size: 6vw;
+  font-size: 7vw;
   padding-top: 0vw;
   padding-right: 0.2vw;
   padding-bottom: 0vw;
@@ -11,14 +11,14 @@ h1 {
 }
 
 p {
-  font-size: 4vw;
+  font-size: 5.5vw;
   padding-top: 0vw;
   padding-right: 0.2vw;
   padding-bottom: 0vw;
   padding-left: 0.2vw;
 }
 .notes {
-font-size: 3.5vw;
+font-size: 4vw;
 text-align: right;
   padding-top: 0vw;
   padding-right: 0.2vw;
