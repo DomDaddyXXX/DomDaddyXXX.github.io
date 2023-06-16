@@ -1,1 +1,48 @@
-.notes,h1,p{padding:0 .2vw}body,html{background-color:#000}body{color:#7d8618}h1{font-size:3vw}p{font-size:2vw}.notes{font-size:1.5vw;text-align:right}.pride,div{text-align:center}div{width:auto;height:auto;padding:0 2.5vw}.pride{font-size:3vw}.blink{animation:1s step-start infinite blinker}@keyframes blinker{50%{opacity:0}}
+/*html {background-color: red}*/
+html {background-color: black;}
+body {background-color: black;}
+body {color: #7d8618;}
+h1 {
+  font-size: 3vw;
+  padding-top: 0vw;
+  padding-right: 0.2vw;
+  padding-bottom: 0vw;
+  padding-left: 0.2vw;
+}
+
+p {
+  font-size: 2vw;
+  padding-top: 0vw;
+  padding-right: 0.2vw;
+  padding-bottom: 0vw;
+  padding-left: 0.2vw;
+}
+.notes {
+font-size: 1.5vw;
+text-align: right;
+  padding-top: 0vw;
+  padding-right: 0.2vw;
+  padding-bottom: 0vw;
+  padding-left: 0.2vw;
+}
+
+div {
+width: auto;
+height: auto;
+text-align: center;
+padding: 0vw 2.5vw;
+}
+
+.pride {
+	font-size: 3vw;
+	text-align: center;
+}
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
