@@ -4,14 +4,24 @@ html {
 }
 body {background-color: black;}
 body {color: #7d8618;}
-h1,h2 {
-  padding-right: calc(8px + 1.5625vw);
-  padding-left: calc(8px + 1.5625vw);
-}
 
-p {
+p,h1,h2 {
+  padding-right: 15vw;
+  padding-left: 15vw;
+  }
+@media screen and (max-width: 768px) {
+	p,h1,h2 {
   padding-right: calc(8px + 1.5625vw);
   padding-left: calc(8px + 1.5625vw);
+}}
+p {
+	padding-bottom: calc(1.5625vw);
+}
+h1, p {
+       margin: 5px;
+}
+h2, p {
+       margin: 5px;
 }
 .notes {
   text-align: right;
@@ -25,6 +35,11 @@ div {
   padding-left: calc(8px + 1.5625vw);
 }
 
+.quote {
+  padding-right: calc(8px + 1.5625vw);
+  padding-left: calc(8px + 1.5625vw);
+  text-align: center;
+}
 .pride {
   padding-right: calc(8px + 1.5625vw);
   padding-left: calc(8px + 1.5625vw);
@@ -40,4 +55,3 @@ div {
   50% {
     opacity: 0;
   }
-}
