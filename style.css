@@ -18,10 +18,10 @@ p {
 	padding-bottom: calc(1.5625vw);
 }
 h1, p {
-       margin: 5px;
+       margin: 0px;
 }
 h2, p {
-       margin: 5px;
+       margin: 0px;
 }
 .notes {
   text-align: right;
@@ -36,15 +36,11 @@ div {
 }
 
 .quote {
+  margin: 2vw;
+  padding-top: 0;
+  padding-bottom: 0;
   padding-right: calc(8px + 1.5625vw);
   padding-left: calc(8px + 1.5625vw);
-  text-align: center;
-}
-.pride {
-  padding-right: calc(8px + 1.5625vw);
-  padding-left: calc(8px + 1.5625vw);
-  font-size: 2rem;
-  font-size: calc(15px + 1.890625vw);
   text-align: center;
 }
 .blink {
